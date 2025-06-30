@@ -1,0 +1,217 @@
+@media (max-width: 320px) {
+    .navbar{
+        position: fixed !important;
+        z-index: 999;
+        display: contents;
+    }
+
+    .navbar img{
+        width: 25% !important;
+    }
+
+    .navbar .container{
+        display: block;
+        padding: 10px;
+    }
+    .navbar .navbar-toggler{
+        position: absolute;
+        right: 0;
+        padding: 0 !important;
+        margin: 0px 15px !important;
+    }
+
+
+    /* EVENT SECTION */
+
+    .event-section h1 {
+        margin-bottom: 2rem !important;
+
+    }
+
+
+    /* GALLERY SECTION */
+
+    .gallery h1 {
+        margin-bottom: 2rem !important;
+    }
+
+    .gallery .row {
+        margin-bottom: 0 !important;
+        /* margin-top: 2rem !important; */
+    }
+
+
+
+
+
+    /* MUSIC GALLERY */
+    .music-gallery h1 {
+        margin-bottom: 2rem !important;
+    }
+
+    .music-gallery ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+        padding: 12px 0;
+        margin: 1rem 0 !important;
+    }
+
+    .music-gallery ul li h5 {
+        display: block !important;
+    }
+
+    .music-gallery audio {
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 !important;
+        width: 80%;
+    }
+
+
+    /* FOOTER SECTION */
+
+    footer .copyright {
+        font-size: 10px !important;
+    }
+
+    footer .row {
+        width: 100% !important;
+        margin: 0 !important;
+        font-size: 14px;
+        align-items: center;
+    }
+
+    footer a {
+        margin-left: 10px !important;
+
+    }
+
+    footer p,
+    a,
+    h6,
+    .col-6,
+    .col-6 h6 {
+        /* padding: 0 !important; */
+        margin: 0 !important;
+        text-align: left !important;
+        font-size: 14px;
+    }
+
+    footer .row .col-6:nth-child(1) p {
+        display: none;
+    }
+
+    footer .row .col-6:nth-child(2) {
+        display: none;
+    }
+
+    footer .row .col-12 h6 {
+        margin-top: 2rem !important;
+    }
+
+    footer .row .col-12 h6,
+    .col-12 p {
+        text-align: center !important;
+    }
+
+}
+
+
+@media (min-width: 321px) and (max-width: 575px) {
+    .navbar{
+        position: fixed !important;
+        z-index: 999;
+        display: contents;
+    }
+
+    .navbar img{
+        width: 25% !important;
+    }
+
+    .navbar .container{
+        display: block;
+        padding: 10px;
+    }
+    .navbar .navbar-toggler{
+        position: absolute;
+        right: 0;
+        padding: 0 !important;
+        margin: 0px 15px !important;
+    }
+
+    /* MUSIC GALLERY */
+    .music-gallery h1 {
+        margin-bottom: 2rem !important;
+    }
+
+    .music-gallery ul li {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        height: 100px;
+        padding: 12px 0;
+        margin: 1rem 0 !important;
+    }
+
+    .music-gallery ul li h5 {
+        display: block !important;
+    }
+
+    .music-gallery audio {
+        bottom: 12px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0 !important;
+        width: 80%;
+    }
+
+
+    /* FOOTER SECTION */
+
+    footer .copyright {
+        font-size: 10px !important;
+    }
+
+    footer .row {
+        width: 100% !important;
+        margin: 0 !important;
+        font-size: 14px;
+        align-items: center;
+    }
+
+    footer a {
+        margin-left: 10px !important;
+
+    }
+
+    footer p,
+    a,
+    h6,
+    .col-6,
+    .col-6 h6 {
+        /* padding: 0 !important; */
+        margin: 0 !important;
+        /* text-align: left !important; */
+        font-size: 14px;
+    }
+
+    footer .row .col-6:nth-child(1) p {
+        display: none;
+    }
+
+    footer .row .col-6:nth-child(2) {
+        display: none;
+    }
+
+    footer .row .col-12 h6 {
+        margin-top: 2rem !important;
+    }
+
+    footer .row .col-12 h6,
+    .col-12 p {
+        text-align: center !important;
+    }
+}
